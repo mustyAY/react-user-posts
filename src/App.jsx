@@ -5,12 +5,12 @@ import Posts from "./pages/Posts";
 function App() {
   return (
     <Router>
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/:id" element={<Posts />} />
-      </Routes>
-    </div>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/:id" element={<Posts />} />
+        </Routes>
+      </div>
     </Router>
   );
 }
